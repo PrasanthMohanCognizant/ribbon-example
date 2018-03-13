@@ -1,0 +1,6 @@
+client-demo:
+ ribbon:
+  eureka:
+   enabled: false
+  listOfServers: localhost:8090,localhost:8099
+  ServerListRefreshInterval: 15000
